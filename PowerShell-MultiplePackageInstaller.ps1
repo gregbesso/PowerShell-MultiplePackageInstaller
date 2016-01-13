@@ -100,7 +100,7 @@ Get-PSManagePackages -spWeb 'https://sharepoint/sites/psmanage'
             #$TaskPackage = $TaskPackage.Replace("1;#","")           
 
             $object1 = [pscustomobject]@{
-                PackageID = $PackageID
+                pID = $PackageID
                 PackageName = $PackageName;
                 PackageInstaller = $PackageInstaller;
                 PackageDetails = $PackageDetails; 
